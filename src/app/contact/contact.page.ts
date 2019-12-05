@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.page.scss'],
 })
 export class ContactPage implements OnInit {
+  [x: string]: any;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+navigate(){
+  this.router.navigate(['/home'])
+}
 }

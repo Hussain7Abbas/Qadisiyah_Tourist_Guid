@@ -1,14 +1,48 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<body>
+
+  <!--Nav-->
+  
+  <div class='nav'>
+    
+  <div [routerLink]="['/about']" class='icon-right'>
+     
+  <img src='../../assets/icon/about us.png'/>
+  
   </div>
-</ion-content>
+  
+  <h3 class='app-name'>دليل الديوانية السياحي</h3>
+  
+  <div [routerLink]="['/contact']" class='icon-left'>
+  <img src='../../assets/icon/have-problem.png'/></div>
+  
+  </div>
+  
+  <div id='labels'>
+  
+  
+  <div class='label-item'  [routerLink]="['/class']" >
+  <h5 class='label-title'>مناطق أثرية</h5>
+  <div class='label-img'><img class='img4'/></div> </div>
+  
+    
+  <div class='label-item' [routerLink]="['/class']">
+  <h5 class='label-title'>مناطق سياحية</h5>
+  <div class='label-img'><img class='img3'/></div> </div>
+  
+  
+  <div class='label-item' [routerLink]="['/class']">
+  <h5 class='label-title'>مناطق دينية</h5>
+  <div class='label-img'><img class='img2'/></div> </div>
+  
+  
+  <div class='label-item' [routerLink]="['/class']">
+  <h5 class='label-title'>مناطق ترفيهية</h5>
+  <div class='label-img'><img class='img1'/></div> </div>
+  
+  
+    </div>
+  
+  </body>
+  
+  

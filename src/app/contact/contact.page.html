@@ -1,9 +1,43 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>contact</ion-title>
-  </ion-toolbar>
-</ion-header>
+<body>
 
-<ion-content>
 
-</ion-content>
+  <!--Nav of Page-->
+  
+  <div class='Navigation'><span>من نحن</span><button class='back-icon'  [routerLink]="['/home']"><i class="fas fa-arrow-right"></i></button></div>
+  
+  
+  
+  <!--fixed color source -->
+  
+  <div class='fixed-bg'></div>
+  
+  
+  <!--text of page -->
+  
+  <span class='fixed'>قد يحتوي التطبيق على أخطاء برمجية أو أخطاء في المعلومات المنقولة , فإذا واجهت أي خطأ أخبرنا</span>
+  
+  <!--Start Form -->
+  
+  <div class="RYP">
+  
+  
+  <form action="/action_page.php">
+  
+  <input type="text" id="fname" name="firstname" placeholder="اسمك هنا ..">
+  
+    
+  <input type="email" id="lname" name="Email" placeholder="بريدك الألكتروني هنا..">
+  
+  <textarea id="subject" name="subject" placeholder="مشكلتك هنا" style="height: 45vw;border-bottom: none;"></textarea>
+  
+  </form>
+  
+    
+    <input type="submit" value="ارسال">
+  
+  </div>
+  
+  
+  
+  
+  </body>

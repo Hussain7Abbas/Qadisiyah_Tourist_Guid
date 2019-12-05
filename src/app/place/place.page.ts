@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./place.page.scss'],
 })
 export class PlacePage implements OnInit {
+  [x: string]: any;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+
+  navigate(){
+    this.router.navigate(['/home'])
   }
 
 }
