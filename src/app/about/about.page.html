@@ -1,9 +1,94 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>about</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
 
-</ion-content>
+
+<!--Nav of Page-->
+
+<div class='Navigation'><span>من نحن</span><button class='back-icon' [routerLink]="['/home']"><i class="fas fa-arrow-right"></i></button></div>
+
+
+<!--Buttons-->
+
+<div class='Buttons'>
+
+<button class='btn btn-dark' round (click)="AboutApp()">
+<img style='width: 60vw;float: left;margin-left: -15vw;margin-top: -2vw;'src='../../assets/icon/Logo.png'/>
+<span style='position: absolute;font-size: 6vw;float: right;right: 9vw;margin-top: 9vw;'>عن التطبيق</span>
+
+</button>
+
+
+<button class='btn btn-dark' round (click)="AboutDevloper()">
+<img style='width: 22vw;float: left;margin-left: 4vw;margin-top: 0vw;' src='../../assets/icon/Code.png'/>
+<span style='position: absolute;font-size: 6vw;float: right;right: 8vw;margin-top: 7vw;'>عن المطورين</span>
+                
+</button>
+
+<button class='btn btn-dark' round (click)="AboutC4i()">
+<img style='width: 30vw;;float: left;margin-left: 0vw;margin-top: -2vw;' src='../../assets/icon/C4i.jpg'/>
+<span style='position: absolute;font-size: 6vw;float: right;right: 9vw;margin-top: 9vw;'>عن المبادرة</span>
+                
+</button>
+
+</div>
+
+
+<!--About-App Contents-->
+
+
+<div id="About-App" style='width:0px;height:100%;background:#fff;overflow: hidden;'>
+<div class='Navigation'><span>عن التطبيق</span><button class='back-icon' round (click)="CloseTab()"><i class="fas fa-arrow-right"></i></button></div>
+<div class='bg-item'>
+<img class='logo' src="../../assets/icon/Logo.png"/>
+<span>دليل الديوانية السياحي</span>
+</div>
+<div class='bg-item2'>
+<p>
+تطبيق "دليل الديوانية السياحي" وهو تطبيق يعرف الزائرين بمحافظة الديوانية وما تحتوي على آثار قديمة تعود الى حضارات عريقة أو على آثار ما زالت قائمة الى الآن . هناك أماكن وآثار عديدة في محافظة الديوانية قد لا يعرفها حتى ابناء المدينة , وبهذا يأتي دور التطبيق للتعريف بهذه الآثار .
+
+</p>
+</div>
+</div>
+
+<!--About-devloper Contents-->
+
+<div id="About-Devloper" style='width:0px;height:100%;background:#fff;overflow: hidden;'>
+<div class='Navigation'><span>عن المطورين</span><button class='back-icon' round (click)="CloseTab()"><i class="fas fa-arrow-right"></i></button></div>
+                       
+        
+ <!--حلا حازم-->               
+<div class='ad'>
+<img src='../../assets/picture/Hala.png' />
+<span class='Name'>حلا حازم كاظم</span>
+<span class='WorkIn'>صاحبة فكرة التطبيق</span></div>
+        
+ <!--حسين عباس-->               
+<div class='ad'>
+<img src='../../assets/picture/Hussien.jpg' />
+<span class='Name'>حسين عباس عبدالجليل</span>
+<span class='WorkIn'>Back End + Database</span></div>
+
+ <!--علي عبد الشهيد-->               
+ <div class='ad'>
+<img src='../../assets/picture/Ali.jpg' />
+<span class='Name'>علي عبد الشهيد باقر</span>
+<span class='WorkIn'>Ui/Ux Design + Front End</span></div>
+        
+                             
+ </div>
+        
+ 
+ <!--About-c4i Contents-->
+
+<div id="About-C4i" style='width:0px;height:100%;background:#fff;overflow: hidden;'>
+<div class='Navigation'><span>عن المبادرة</span><button class='back-icon' round (click)="CloseTab()"><i class="fas fa-arrow-right"></i></button></div>                         
+<img style='height: 70vw;margin-left: 17.4vw;' src='../../assets/icon/C4i.jpg' />                         
+<div class='bg-item2'>
+
+<p>
+                                البرمجة من اجل العراق: وهي مبادرة إنسانية غير ربحية تهدف الى خدمة المجتمع عن طريق البرمجة Programming. تعتبر "Code For IRAQ" مبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهاتف الجوال ومواقع الانترنت وبرامج الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر Open Source ، كما توفر لهم جميع الدروس التعليمية اللازمة وبشكل مجاني تماماً.
+                        
+</p>
+                        
+</div>
+                                                        
+
